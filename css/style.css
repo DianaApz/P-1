@@ -1,0 +1,350 @@
+
+html, body, .block{
+    height: 100%;
+}
+.sidenav-trigger{
+    /* padding: 4px 30px 4px !important; */
+    color: #f3989b !important;   
+}
+.bar{
+    font-weight: bolder;
+    padding: 0.2px 40px 0.2px;
+    font-size: 16px !important;
+    color: #e57373!important;
+}
+.hover:hover{
+    border-bottom: #e57373 solid 4px;
+    padding: 0.2px 40px 0.2px !important;
+
+}
+#inicio{
+    background: url(../img/port.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.moving-letters {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0% 0% 0%;
+    margin: auto;
+    height: 350px;
+    /* font-size: 25px; */
+    color: gray;
+    font-weight: bolder;
+    /* padding-top:5%; 
+    padding-bottom: 10%; */
+}
+.da{
+    font-size: 38px;
+}
+.ml2 {
+    font-weight: 900;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1.6em;
+}
+.ml3{
+    font-size: 25px;
+}
+.bar{
+    font-weight: bolder;
+    /* padding: 3px 40px 3px; */
+    font-size: 16px !important;
+    color: #e57373!important;
+}
+.brand-logo{
+    padding: 0px 40px 0px !important;
+    font-weight: bolder;
+    font-size: 30px !important;
+    color: #e57373 !important;
+}
+.perfil-section{
+    padding: 0% 0% 11% !important;
+}
+.aboutMe{
+    color: #e57373 !important;
+    font-weight: bolder;
+    padding: 5% 0% 9% !important;
+}
+.box-images{
+    margin: 1% 0% 0%;
+}
+.image{
+    width: 80%;
+}
+.perfil-text{
+    line-height: 1.6;
+    text-align: justify;
+    color: rgba(78, 74, 74, 0.822);
+    font-size: 16px;
+    /* padding: 1% 0% 0% !important;  */
+}
+.tittle-one{
+    color: #e57373 !important;
+    font-weight: bolder;
+    padding: 2% 0% 7% !important;
+}
+.arrow{
+    color: #e57373 ;
+    margin-top: 5%;
+}
+
+.arrow:hover {
+    color: black;
+}
+
+.block-project{
+    padding: 5% 0% 5% !important;
+}
+.img-data{
+    width: 42% !important;
+}
+.img-red{
+    width: 30% !important;
+}
+
+.carousel {
+    width: 100% !important;
+    padding: 17% 0% 17% !important;
+    height: 400px !important;
+
+}
+
+.carousel-item{
+padding: 0% 5% 0% !important; 
+
+}
+.carousel .indicators .indicator-item {
+    background-color:transparent !important;
+}
+.carousel .indicators .indicator-item:hover{
+    background-color:transparent !important; 
+}
+.btn,.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #e57373 !important;
+}
+.block-skills{
+    padding: 5% 0% 5% !important;
+}
+.tittle-skills{
+    color: #e57373 !important;
+    font-weight: bolder;
+    padding: 2% 0% 4% !important;
+}
+.tittle-skill{
+    color: #e57373 !important;
+    font-weight: bolder;
+    padding: 0% 0% 9% !important;
+}
+.block-contact{
+    padding: 3% 0% 5% !important;
+}
+.tittle-contact{
+    color: #e57373 !important;
+    font-weight: bolder;
+    padding: 4% 0% 9% !important;
+}
+.contact{
+    padding: 0% 0% 10% !important;
+    color:gray;
+}
+.ancla{
+    color:gray !important;
+}
+/* @media only screen and (max-width: 1440px) { */
+    /* #inicio{
+        background-position: 50%;
+    } */
+    /* .ml3{
+        font-size: 25px;
+    } */
+    /* .moving-letters{
+        height: 450px;
+    } */
+    /* .da{
+        font-size: 40px;
+    }
+    .aboutMe{
+        padding: 7% 0% 8% !important;
+    }
+} */
+@media only screen and (max-width: 1024px) {
+    .moving-letters{
+        height: 600px ;
+    }
+    .image{
+        width: 90%;
+    }
+    .perfil-text{
+        line-height: 1.4em;   
+    }
+    .box-images{
+        margin-top: 7% !important;
+    }
+    .perfil-section{
+        padding: 10% 0% 11% !important;
+    }
+    .block-project{
+        padding: 8% 0% 8% !important;
+    }
+    .ml3{
+        font-size: 35px;
+    }
+    .da{
+        font-size: 50px;
+    }
+    .carousel {
+        width: 100% !important;
+        /* padding: 17% 0% 17% !important; */
+        height: 400px !important;
+    
+    }
+}
+/* 768 */
+@media only screen and (max-width: 768px) {
+    .ml3{
+        font-size: 30px;
+    }
+    .da{
+        font-size: 45px;
+    }
+    .perfil-section{
+        padding: 10% 0% 11% !important;
+    }
+    .block-project{
+        padding: 8% 0% 8% !important;
+    }
+    .tittle-skills{
+        padding: 5% 0% 9% !important;
+    }
+}
+/* 640 */
+@media only screen and (max-width: 640px) {
+    #inicio{
+        background-position: 50%;
+    }
+    .image{
+        width: 80%;
+    }
+    .ml3{
+        font-size: 12px;
+    }
+    .da{
+        font-size: 20px;
+    }
+    .moving-letters{
+        padding: 10% 0% 7% ;
+    }
+    .ml2.letter{
+        line-height:0.5em;
+    }
+    .moving-letters{
+        height: 350px ;
+    }
+    .perfil-section{
+        padding: 3% 0% 11% !important;
+    }
+    .aboutMe{
+        padding: 0% 0% 3% !important;
+    }
+    .tittle-skills{
+        padding: 7% 0% 12% !important;
+    }
+    .tittle-contact{
+        padding: 8% 0% 10% !important;
+    }
+    /* .carousel {
+        width: 100% !important;
+        padding: 17% 0% 17% !important;
+        height: 450px !important;
+    
+    } */
+}
+/* pixel 2 411 */
+@media only screen and (max-width: 420px) {
+    .ml3{
+        font-size: 20px;
+    }
+    .da{
+        font-size: 30px;
+    }
+    .perfil-section{
+        padding: 10% 0% 11% !important;
+    }
+    .moving-letters{
+        padding: 0% 0% 7% ;
+    }
+    .carousel {
+        width: 100% !important;
+        /* padding: 17% 0% 17% !important; */
+        height: 450px !important;
+    }
+    .aboutMe{
+        padding: 5% 0% 3% !important;
+    }
+    .tittle-one{
+        padding: 8% 0% 9% !important;
+    }
+    .block-project{
+        padding: 5% 0% 8% !important;
+    }
+    .tittle-contact{
+        padding-bottom: 15% !important;
+    }
+}
+/* LG 384 */
+@media only screen and (max-width: 390px) {
+    .tittle-one{
+        padding: 8% 0% 9% !important;
+    }
+    .tittle-skills{
+        padding: 10% 0% 12% !important;
+    }
+    .block-project{
+        padding: 6% 0% 7% !important;
+    }
+    .block-skills{
+        padding: 6% 0% 8% !important;
+    }
+    .tittle-contact{
+        padding: 12% 0% 10% !important;
+    }
+    .aboutMe{
+        padding: 2% 0% 7% !important;
+    }
+    .ml3{
+        font-size: 18px;
+    }
+    .da{
+        font-size: 28px;
+    }
+    
+    
+    .moving-letters{
+        height: 350px ;
+    }
+}
+/* iphone 320*/
+@media only screen and (max-width: 320px) {
+    .perfil-section{
+        padding: 5% 0% 11% !important;
+    }
+    .moving-letters{
+        height: 300px ;
+    }
+    .ml3{
+        font-size: 16px;
+    }
+    
+    .da{
+        font-size: 25px;
+    }
+    
+}
